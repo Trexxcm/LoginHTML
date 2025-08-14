@@ -21,7 +21,7 @@ if (username === USER && password ===PASS) {
 errorMessage.style.color = 'green';
 errorMessage.textContent = 'inicio de sesion exitoso!';
 alert('Inicio de sesion exitoso,Bienvenido!');
-window.location.href = 'hola.html';
+window.location.href = 'home.html';
 
 
 // Redireccionar a Otra pagina (descomentar para usar)
