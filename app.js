@@ -16,11 +16,13 @@ const password = document.getElementById( 'password' ).value;
 // validamos las credenciales
 if (username === USER && password ===PASS) {
 
-// Si son correctas, redirigimos o mostramos un mensaje\
+// Si son correctas, redirigimos y mostramos un mensaje
 
 errorMessage.style.color = 'green';
 errorMessage.textContent = 'inicio de sesion exitoso!';
+alert('Inicio de sesion exitoso,Bienvenido!');
 window.location.href = 'hola.html';
+
 
 // Redireccionar a Otra pagina (descomentar para usar)
 
@@ -31,5 +33,5 @@ errorMessage.textContent = 'Usuario o contraseña incorrectos.';
 alert('Error: usuario o contraseña incorrectos');
 }
 // Limpiamos los campos del formulario
-loginForm. reset();
+loginForm.reset();
 });
